@@ -1,0 +1,29 @@
+.button {
+  text-transform: uppercase;
+  display: inline-block;
+  width: 150px;
+  height: 40px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #2e01f8;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-right: 15px;
+}
+
+.button:hover {
+  background-color: #0126f8;
+}
+
+.button:active {
+  background-color: #0126f8;
+}
+
+.options {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  text-align: center;
+}
